@@ -1,0 +1,98 @@
+[
+  {
+    "id": "yt_times_square",
+    "city": "New York",
+    "name": "Times Square Live",
+    "lat": 40.758,
+    "lon": -73.9855,
+    "snapshotUrl": "https://img.youtube.com/vi/kLfjr0nf5yc/hqdefault.jpg",
+    "refreshSeconds": 60,
+    "streamUrl": "https://www.youtube.com/embed/kLfjr0nf5yc?autoplay=1&mute=1&controls=0&rel=0",
+    "streamFormat": "YOUTUBE",
+    "region": "americas"
+  },
+  {
+    "id": "yt_copacabana",
+    "city": "Rio de Janeiro",
+    "name": "Copacabana Beach Live",
+    "lat": -22.9711,
+    "lon": -43.1822,
+    "snapshotUrl": "https://img.youtube.com/vi/S5M3TbkUiKM/hqdefault.jpg",
+    "refreshSeconds": 60,
+    "streamUrl": "https://www.youtube.com/embed/S5M3TbkUiKM?autoplay=1&mute=1&controls=0&rel=0",
+    "streamFormat": "YOUTUBE",
+    "region": "americas"
+  },
+  {
+    "id": "yt_sf_skyline",
+    "city": "San Francisco",
+    "name": "San Francisco Skyline Live",
+    "lat": 37.7943,
+    "lon": -122.3994,
+    "snapshotUrl": "https://img.youtube.com/vi/0aF8elLpiMo/hqdefault.jpg",
+    "refreshSeconds": 60,
+    "streamUrl": "https://www.youtube.com/embed/0aF8elLpiMo?autoplay=1&mute=1&controls=0&rel=0",
+    "streamFormat": "YOUTUBE",
+    "region": "americas"
+  },
+  {
+    "id": "yt_london_city",
+    "city": "London",
+    "name": "London City Skyline Live",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "snapshotUrl": "https://img.youtube.com/vi/D3zR22ZmJ8U/hqdefault.jpg",
+    "refreshSeconds": 60,
+    "streamUrl": "https://www.youtube.com/embed/D3zR22ZmJ8U?autoplay=1&mute=1&controls=0&rel=0",
+    "streamFormat": "YOUTUBE",
+    "region": "europe"
+  },
+  {
+    "id": "yt_dubai_marina",
+    "city": "Dubai",
+    "name": "Dubai Marina Live",
+    "lat": 25.0803,
+    "lon": 55.1403,
+    "snapshotUrl": "https://img.youtube.com/vi/7dE4IjDQJmE/hqdefault.jpg",
+    "refreshSeconds": 60,
+    "streamUrl": "https://www.youtube.com/embed/7dE4IjDQJmE?autoplay=1&mute=1&controls=0&rel=0",
+    "streamFormat": "YOUTUBE",
+    "region": "mideast"
+  },
+  {
+    "id": "yt_tokyo_shibuya",
+    "city": "Tokyo",
+    "name": "Tokyo City Live",
+    "lat": 35.6595,
+    "lon": 139.7005,
+    "snapshotUrl": "https://img.youtube.com/vi/faogT8-Nu8A/hqdefault.jpg",
+    "refreshSeconds": 60,
+    "streamUrl": "https://www.youtube.com/embed/faogT8-Nu8A?autoplay=1&mute=1&controls=0&rel=0",
+    "streamFormat": "YOUTUBE",
+    "region": "asia"
+  },
+  {
+    "id": "yt_seoul_city",
+    "city": "Seoul",
+    "name": "Seoul City View Live",
+    "lat": 37.5665,
+    "lon": 126.978,
+    "snapshotUrl": "https://img.youtube.com/vi/mc8rY3qf1Bg/hqdefault.jpg",
+    "refreshSeconds": 60,
+    "streamUrl": "https://www.youtube.com/embed/mc8rY3qf1Bg?autoplay=1&mute=1&controls=0&rel=0",
+    "streamFormat": "YOUTUBE",
+    "region": "asia"
+  },
+  {
+    "id": "yt_singapore_marina",
+    "city": "Singapore",
+    "name": "Marina Bay Live",
+    "lat": 1.2833,
+    "lon": 103.8607,
+    "snapshotUrl": "https://img.youtube.com/vi/7V2wQ6G2Z0s/hqdefault.jpg",
+    "refreshSeconds": 60,
+    "streamUrl": "https://www.youtube.com/embed/7V2wQ6G2Z0s?autoplay=1&mute=1&controls=0&rel=0",
+    "streamFormat": "YOUTUBE",
+    "region": "asia"
+  }
+]

@@ -1,0 +1,35 @@
+"use client";
+
+import dynamic from "next/dynamic";
+import { useState } from "react";
+import InitialLoader from "./InitialLoader";
+import { startPreload } from "../lib/preload/index";
+
+// Start downloading these bundles immediately when this module is evaluated,
+// so they are ready (or nearly ready) by the time the user sees the app.
+const SIGINTApp = dynamic(() => import("./SIGINTApp"), {
+  ssr: false,
+  loading: () => null,
+});
+
+// Kick off all preload tasks AND pre-warm heavy sub-bundles at module eval time
+// (before any React component mounts), so everything races in parallel.
+if (typeof window !== "undefined") {
+  const isPhoneViewport = window.matchMedia("(max-width: 767px)").matches;
+  startPreload({ deferMapWarmup: isPhoneViewport });
+  if (!isPhoneViewport) {
+    void import("./news/MapLibreNewsMap");
+    void import("./news/NewsWorkspace");
+  }
+}
+
+export default function PreloadGatedApp() {
+  const [ready, setReady] = useState(false);
+
+  return (
+    <>
+      {!ready && <InitialLoader onDone={() => setReady(true)} />}
+      {ready && <SIGINTApp />}
+    </>
+  );
+}
